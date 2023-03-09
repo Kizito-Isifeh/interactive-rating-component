@@ -1,0 +1,131 @@
+
+  body {
+    box-sizing: border-box;
+    background-color: #141518;
+    font-family: 'Overpass', sans-serif;
+    margin: auto;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
+
+  main {
+    display: block;
+}
+
+.star {
+    border-radius: 50%;
+    border: none;
+    padding: 15px;
+    background-color: #24303c;
+}
+
+
+.rating {
+    padding: 30px;
+    background-color: hsl(213, 19%, 18%);
+    width: 350px;
+    border-radius: 16px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 10%);
+    background-image: linear-gradient(to top right, #191e27, #242932);
+}
+
+
+.thanks {
+    padding: 30px;
+    background-color: hsl(213, 19%, 18%);
+    width: 350px;
+    border-radius: 16px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 10%);
+    background-image: linear-gradient(to top right, #191e27, #242932);
+    text-align: center;
+}
+
+.result{
+    font-size: 12px;
+    background-color: #24303c;
+    color: hsl(25, 97%, 53%);
+    margin: 10% 0% 10% 0%;
+    border-radius: 20px;
+    padding: 1px;
+    
+}
+
+
+.float-container {
+    padding: 15px;
+        
+}
+
+.float-child{
+    float: left;
+    border-radius: 50%;
+    border: none;
+    padding: 15px;
+    background-color: #24303c;
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    font-size: 16px;
+    width: 50px;
+    height: 50px;
+    margin: 5% 5% 10% 0%;
+    cursor: pointer;
+}
+
+.float-child:hover {
+    background-color:hsl(216, 12%, 54%);
+    color: white;
+    transition: 0.7s;
+}
+
+.float-child:active,
+.float-child.active {
+    background-color: hsl(25, 97%, 53%);
+    color:white;
+    
+}
+
+
+.first{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    line-height: 1.5;
+  }
+
+  h1 {
+    color: hsl(0, 0%, 100%);
+  }
+
+  .submit-button{
+    display: block;
+    border-radius: 50px;
+    width: 100%;
+    padding: 15px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 10%;
+    margin-right: 10%;
+    border: none;
+    cursor: pointer;
+
+  }
+
+  .submit-button:active,
+.submit-button.active {
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+    
+    
+    
+}
+
+footer {
+    font-size: 11px; text-align: center;
+    color: hsl(228, 45%, 44%);
+    text-align: center;
+    padding-top: 100px;
+}
